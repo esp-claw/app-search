@@ -1,0 +1,12 @@
+{
+  "name": "search",
+  "version": "1.0.0",
+  "description": "Web and news search via the device's tavily (preferred) or brave API profile: title, url and snippet per result.",
+  "permissions": {
+    "http_profiles": ["tavily", "brave"]
+  },
+  "limits": {
+    "memory_kb": 128,
+    "call_timeout_ms": 5000
+  }
+}
