@@ -43,7 +43,7 @@ python3 sdk/tools/manifest_check.py .
 python3 sdk/tools/wasm_check.py build
 ```
 
-Needs clang with the wasm32 target and wasm-ld (Debian/Ubuntu: `apt install clang lld`). CI runs the same steps through `esp-claw/app-sdk/.github/workflows/app-build.yml`.
+Needs clang with the wasm32 target and wasm-ld (Debian/Ubuntu: `apt install clang lld`). CI runs the same steps through `esp-claw/app-sdk/.github/workflows/app-build.yml@v1`.
 
 ## Releases and install
 
